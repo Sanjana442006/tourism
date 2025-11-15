@@ -1,6 +1,4 @@
-/* ==========================
-   Blog Post Comments
-=========================== */
+
 function addComment() {
     let input = document.getElementById("comment-input");
     let box = document.getElementById("comments-box");
@@ -15,9 +13,7 @@ function addComment() {
     input.value = "";
 }
 
-/* ==========================
-   Newsletter Subscription
-=========================== */
+
 function subscribe() {
     let emailInput = document.querySelector(".newsletter input[type='email']");
     let email = emailInput.value.trim();

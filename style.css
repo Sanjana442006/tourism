@@ -1,6 +1,4 @@
-/* ==========================
-   General Reset & Layout
-=========================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,9 +18,7 @@ body {
     margin: auto;
 }
 
-/* ==========================
-   Header & Navigation
-=========================== */
+
 header {
     background-color: #0077b6;
     color: #fff;
@@ -50,9 +46,7 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/* ==========================
-   Banner Section (Home Page)
-=========================== */
+
 .banner {
     position: relative;
     text-align: center;
@@ -70,9 +64,7 @@ header nav a:hover {
     border-radius: 8px;
 }
 
-/* ==========================
-   Featured / Cards (Home & Blog & Destinations)
-=========================== */
+
 .card-row, .blog-row, .dest-grid {
     display: flex;
     flex-wrap: wrap;
@@ -108,9 +100,7 @@ header nav a:hover {
     padding: 0 10px 10px 10px;
 }
 
-/* ==========================
-   Section Titles
-=========================== */
+
 .section-title {
     text-align: center;
     font-size: 2rem;
@@ -118,9 +108,7 @@ header nav a:hover {
     color: #023e8a;
 }
 
-/* ==========================
-   Newsletter (Home Page)
-=========================== */
+
 .newsletter {
     text-align: center;
     margin: 30px 0;
@@ -146,9 +134,7 @@ header nav a:hover {
     background-color: #023e8a;
 }
 
-/* ==========================
-   Post Page
-=========================== */
+
 .post-container {
     width: 90%;
     max-width: 800px;
@@ -202,9 +188,7 @@ textarea {
     border-radius: 5px;
 }
 
-/* ==========================
-   Guide Profile
-=========================== */
+
 .guide-profile {
     width: 90%;
     max-width: 800px;
@@ -229,9 +213,7 @@ textarea {
     text-align: left;
 }
 
-/* ==========================
-   Footer
-=========================== */
+
 footer {
     background: #0077b6;
     color: #fff;
@@ -240,9 +222,7 @@ footer {
     margin-top: 30px;
 }
 
-/* ==========================
-   Responsive
-=========================== */
+
 @media(max-width: 768px) {
     .card-row, .blog-row, .dest-grid {
         flex-direction: column;
